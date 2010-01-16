@@ -3300,8 +3300,10 @@ the crypto engine:
 <GnupgKeyParms format="internal">
 Key-Type: DSA
 Key-Length: 1024
+Key-Usage: sign
 Subkey-Type: ELG-E
 Subkey-Length: 1024
+Subkey-Usage: encrypt
 Name-Real: Joe Tester
 Name-Comment: with stupid passphrase
 Name-Email: joe@@foo.bar
